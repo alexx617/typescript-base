@@ -1,8 +1,6 @@
-typescript-base
-===
+# typescript-base
 ***
-1. 数据类型
---
+## 1. 数据类型
 #### 1.1 array / boolean / number /string
 以上数据类型用法一般无二，具体参考代码，在此不作记录
 
@@ -43,8 +41,7 @@ typescript-base
 	    //success
 	}
 
-2. 接口
---
+## 2. 接口
 > 接口，即类型检查，专注于解析值所具有的"形态"，这是TypeScript的核心原则之一
 
 #### 2.1 接口创建
@@ -77,8 +74,7 @@ typescript-base
 3. class类型接口以定义其属性类型的形式体现
 4. 在混合类型下，一个接口可以继承其他一个或多个接口的所有属性，并拥有自己的似有属性
 
-3. 函数
----
+## 3. 函数
 #### 3.1 函数类型
 函数类型下，如有定义返回类型，则必须返回所定义类型的数据  
 
@@ -154,8 +150,7 @@ typescript-base
 	attr(22);
 	attr('yishuihan');
 
-4. Class类
----
+## 4. Class类
 #### 4.1 类的创建
 	class Person{
 	    name: string;
