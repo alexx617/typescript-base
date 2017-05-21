@@ -4,24 +4,26 @@
 
 class Person{
     public name: string;
+    private job: string;
     age: number;
-    constructor(name: string, age: number){
+    constructor(name: string, age: number, job: string){
         this.name = name;
         this.age  = age;
+        this.job  = job;
     }
     print(){
-        return this.name + ':'+ this.age;
+        return this.name + ':'+ this.age + ':'+ this.job;
     }
 }
 
 class Student extends Person{
     school: string;
     constructor(school: string){
-        super('iwen',88888888);
+        super('iwen',88888888,'doctor');
         this.school = school;
     }
     print(){
-        return this.name + ':' + this.age + ':' + this.school;
+        return this.name + ':' + this.age + ':' + this.school + ':' + this.job;
     }
 }
 

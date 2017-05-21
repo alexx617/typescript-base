@@ -9,10 +9,10 @@ test = 'yishuihan';
 test = false;
 
 function tell(){
-    // alert(demo[1]);
+   	alert(demo[1]);
     alert(test);
 }
-tell();
+tell();//false
 
 
 

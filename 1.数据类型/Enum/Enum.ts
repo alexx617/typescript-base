@@ -11,7 +11,7 @@ var c: color = color.green;
 function tell(){
     alert(c);
 }
-tell();
+tell();//4
 
 
 

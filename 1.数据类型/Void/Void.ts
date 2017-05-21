@@ -11,7 +11,7 @@ function test(): string{
 }
 
 function tell(): void{
-    
+    //success
 }
 
 

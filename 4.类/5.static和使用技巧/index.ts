@@ -6,7 +6,7 @@
 class Person{
     static name: string;
     tell(){
-        alert('aa的年龄是'+Person.name);
+        alert('aa的年龄是'+ Person.name);
     }
 }
 
